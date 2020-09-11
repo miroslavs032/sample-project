@@ -1,6 +1,21 @@
 # Sample Project
 
-This project objective is to provide teraform scripts to create IAM resources (users and groups) on the AWS cloud
+This project objective is to provide teraform scripts to create IAM resources (users and groups) on the AWS cloud.
+
+Groups and Users:
+ - Ops
+   - Santiago
+   - Felix
+   - Morgan
+ - Developers
+   -  Eugene
+   - Milo
+   - Abigail
+   - Aidan
+
+Roles:
+ - ops_role
+ - developers_role
 
 Before running terraform, you must install the binary. 
 
