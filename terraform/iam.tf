@@ -52,9 +52,9 @@ data "aws_iam_policy_document" "ops_assume_role_policy" {
     principals {
       type = "AWS"
       identifiers = [
-        "arn:aws:iam::user/Santiago",
-        "arn:aws:iam::user/Felix",
-        "arn:aws:iam::user/Morgan"
+        "arn:aws:iam::255229101253:user/Santiago",
+        "arn:aws:iam::255229101253:user/Felix",
+        "arn:aws:iam::255229101253:user/Morgan"
       ]
     }
   }
@@ -74,10 +74,10 @@ data "aws_iam_policy_document" "developers_assume_role_policy" {
     principals {
       type = "AWS"
       identifiers = [
-        "arn:aws:iam::user/Eugene",
-        "arn:aws:iam::user/Milo",
-        "arn:aws:iam::user/Abigail",
-        "arn:aws:iam::user/Aidan"
+        "arn:aws:iam::255229101253:user/Eugene",
+        "arn:aws:iam::255229101253:user/Milo",
+        "arn:aws:iam::255229101253:user/Abigail",
+        "arn:aws:iam::255229101253:user/Aidan"
       ]
     }
   }
